@@ -2,7 +2,6 @@ expensesCtrls = {};
 
 const ExpensesModel = require('../models/Expenses');
 const jwt = require('jsonwebtoken');
-const { NativeError } = require('mongoose');
 
 
 async function getExpensesDatabase(req) {
